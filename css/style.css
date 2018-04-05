@@ -1,0 +1,62 @@
+.top_bar{
+    background:black;
+    padding:10px 0;
+    margin-top: 2px;
+}
+
+.social_icons{
+	margin-right: 8px;
+}
+
+.contct_info{
+	color: red;
+}
+
+.menu{
+	margin-top:40px;
+}
+
+.menu .navbar-default{
+    background: none;
+    border:none;
+}
+
+.menu .navbar-nav .active a,.menu .navbar-nav .active a:hover{
+	background: black;
+	color:red;
+	border-radius:12px;
+}
+
+.menu .navbar-nav li a:hover{
+	background: black;
+	color:red;
+	border-radius:12px;
+}
+
+.pic{
+	margin-left:50px;
+	margin-top: 20px;
+	height: 100%;
+	 width: 80%
+}
+
+.our_services{
+	background: radial-gradient(circle,#009cde, #003087);
+
+}
+.our_services h2{
+	color:white;
+}
+
+
+@media(max-width:1200px){
+	.menu .pull-right{float:none !important;
+		position: 25px 0px;
+	}
+}
+
+@media(max-width:603px){
+  .our_services [*class="col-"]
+  margin-bottom:25px;
+}
+
