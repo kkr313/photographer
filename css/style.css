@@ -48,6 +48,31 @@
 	color:white;
 }
 
+.footer{
+	background: #333333;
+	padding: 20px 0;
+}
+.footer{
+	color: white;
+}
+
+.footer p{
+	color:white;
+	padding:5px 0;
+}
+
+.footer ul{
+	list-style:none;
+	margin-left: 100px;
+
+	padding:0;
+}
+
+.footer ul li a{
+	color: white;
+	font-size: 15px;
+
+}
 
 @media(max-width:1200px){
 	.menu .pull-right{float:none !important;
